@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aeced74a-6f9b-41e0-b4d1-79fe403904d4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/eurosong.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Country.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Vote.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/artisan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/broadcasting.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/filesystems.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/hashing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/logging.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/mail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/queue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/services.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2019_01_19_111405_create_countries_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2019_01_19_112037_create_votes_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2019_01_19_221828_create_results_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/CountriesTableSeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/VotesTableSeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_basque.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_catalonia.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_earth_pernefeldt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_galicia.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_generic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_kosovo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_olympic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_scotland.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_united_nations.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_wales.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ad.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ae.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/af.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ai.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/al.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/am.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ao.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/aq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/as.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/at.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/au.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/aw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ax.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/az.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ba.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/be.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/br.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/brl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/by.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ca.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ch.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ci.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ck.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/co.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cx.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/cz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/de.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/dj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/dk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/dm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/do.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/dz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ec.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ee.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/eg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/eh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/eo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/er.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/es.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/et.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/eu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/fi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/fj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/fk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/fm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/fo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/fr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ga.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ge.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ht.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/id.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ie.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/il.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/im.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/in.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/io.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/iq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ir.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/is.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/it.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/je.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/jm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/jo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/jp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ke.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/kg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/kh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ki.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/km.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/kn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/kp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/kr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/kw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ky.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/kz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/la.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/li.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ls.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ly.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ma.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/md.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/me.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ml.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ms.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mx.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/my.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/na.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/nc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ne.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/nf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ng.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ni.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/nl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/no.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/np.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/nr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/nu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/nz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/om.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pe.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ph.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ps.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/py.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/qa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/re.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ro.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ru.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/se.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/si.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/so.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ss.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/st.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sx.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/td.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/th.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/to.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ua.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ug.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/um.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/us.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/uy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/uz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/va.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/vc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ve.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/vg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/vi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/vn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/vu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/wf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ws.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ye.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/yt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/za.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/zm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/zw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/zz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/mix-manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/svg/403.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/svg/404.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/svg/500.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/svg/503.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/web.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/_basque.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/_catalonia.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/_earth_pernefeldt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/_galicia.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/_generic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/_kosovo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/_olympic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/_scotland.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/_united_nations.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/_wales.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ad.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ae.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/af.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ai.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/al.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/am.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ao.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/aq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/as.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/at.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/au.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/aw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ax.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/az.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ba.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/be.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/br.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/brl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/by.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/bz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ca.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ch.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ci.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ck.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/co.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cx.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/cz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/de.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/dj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/dk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/dm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/do.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/dz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ec.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ee.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/eg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/eh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/eo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/er.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/es.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/et.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/eu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/fi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/fj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/fk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/fm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/fo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/fr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ga.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ge.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/gy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/hk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/hm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/hn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/hr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ht.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/hu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/id.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ie.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/il.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/im.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/in.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/io.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/iq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ir.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/is.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/it.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/je.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/jm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/jo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/jp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ke.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/kg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/kh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ki.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/km.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/kn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/kp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/kr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/kw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ky.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/kz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/la.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/lb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/lc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/li.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/lk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/lr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ls.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/lt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/lu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/lv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ly.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ma.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/md.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/me.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ml.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ms.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mx.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/my.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/mz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/na.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/nc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ne.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/nf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ng.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ni.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/nl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/no.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/np.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/nr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/nu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/nz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/om.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/pa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/pe.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/pf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/pg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ph.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/pk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/pl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/pm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/pn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/pr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ps.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/pt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/pw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/py.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/qa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/re.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ro.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/rs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ru.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/rw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/se.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/si.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/so.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ss.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/st.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sx.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/sz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/td.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/th.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/to.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ua.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ug.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/um.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/us.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/uy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/uz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/va.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/vc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ve.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/vg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/vi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/vn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/vu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/wf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ws.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ye.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/yt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/za.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/zm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/zw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/zz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/components/CountriesComponent.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/sass/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/countries/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/countries/show.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/results/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/channels.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/console.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.mix.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <executablePath>composer</executablePath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/countries/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/countries/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Blade File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>console.log</find>
+      <find>selectedCountries</find>
+      <find>cons</find>
+      <find>votes</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_19_111405_create_countries_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_19_112037_create_votes_table.php" />
+        <option value="$PROJECT_DIR$/app/Vote.php" />
+        <option value="$PROJECT_DIR$/database/seeds/VotesTableSeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/countries.vue" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_19_112252_create_table_country_vote.php" />
+        <option value="$PROJECT_DIR$/database/seeds/CountriesTableSeder.php" />
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
+        <option value="$PROJECT_DIR$/app/Country.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/API/Controller.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_19_221828_create_results_table.php" />
+        <option value="$PROJECT_DIR$/app/Result.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
+        <option value="$PROJECT_DIR$/resources/views/results/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/CountriesComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/views/countries/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/countries/index.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/nexmo/client" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/laravel/slack-notification-channel" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/nexmo-notification-channel" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="580" />
+    <option name="y" value="48" />
+    <option name="width" value="2141" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eurosong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eurosong" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eurosong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eurosong" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eurosong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eurosong" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eurosong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eurosong" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eurosong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eurosong" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eurosong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eurosong" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="seeds" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eurosong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eurosong" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eurosong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eurosong" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eurosong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eurosong" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eurosong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eurosong" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eurosong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eurosong" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="countries" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eurosong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eurosong" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="results" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eurosong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eurosong" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aeced74a-6f9b-41e0-b4d1-79fe403904d4" name="Default" comment="" />
+      <created>1547896053624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547896053624</updated>
+      <workItem from="1547896054959" duration="35262000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35262000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11645469" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2765625" sideWeight="0.50158983" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2765625" sideWeight="0.49841017" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_19_111405_create_countries_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Vote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_19_112037_create_votes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/ExampleComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <folding>
+            <element signature="e#25#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/VotesTableSeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="176" column="20" lean-forward="false" selection-start-line="176" selection-start-column="20" selection-end-line="176" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CountriesTableSeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="90" lean-forward="false" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_19_112252_create_table_country_vote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Country.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="e#44#60#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_19_221828_create_results_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/results/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="84" lean-forward="false" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/CountriesComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding>
+            <element signature="e#2181#2207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/countries/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/countries/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
