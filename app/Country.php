@@ -15,6 +15,11 @@ class Country extends Model {
 	}
 
 	public function voted() {
-		return $this->hasMany('App\Result', 'voter_id');
+		return $this->hasMany( 'App\Result', 'voter_id' );
+	}
+
+	public function countryVote( $voter, $votedFor ) {
+		$result = Result::where( 'voter_id', $voter->id )->where( 'country_id', $votedFor->id )->first();
+		return $result ? $result->score : '';
 	}
 }

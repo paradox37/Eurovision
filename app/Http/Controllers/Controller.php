@@ -26,6 +26,9 @@ class Controller extends BaseController {
 		                     ->orderBy( 'sum', 'DESC' )
 		                     ->get();
 
+		$data['resultsMatrix'] =  Result::get();
+		$data['countries'] = Country::get();
+
 		return view( 'results.index', $data );
 	}
 

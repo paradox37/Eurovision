@@ -11,7 +11,7 @@ class Result extends Model {
 		'score'
 	];
 
-	public function countries(){
-		return $this->hasOne('App\Country');
+	public function country(){
+		return $this->hasOne('App\Country', 'id', 'country_id');
 	}
 }

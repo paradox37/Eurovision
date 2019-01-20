@@ -2,6 +2,13 @@
     <div>
         <div v-if="!submitted">
             <h3 class="mb-5">Please vote below</h3>
+            <template v-if="serverErrors">
+                <template v-for="messages in serverErrors">
+                    <template v-for="message in messages">
+                        <p class="error">{{ message }}</p>
+                    </template>
+                </template>
+            </template>
             <form v-on:submit.prevent="onSubmit">
                 <table class="table table-striped">
                     <thead>
@@ -33,7 +40,7 @@
                     </tbody>
                 </table>
                 <div class="text-right">
-                    <button class="btn btn-primary" :disabled="errors.any()">Submit</button>
+                    <button class="btn btn-primary" :disabled="errors.any() || processing">Submit</button>
                 </div>
             </form>
         </div>
@@ -67,7 +74,9 @@
                 custom: {}
             },
             submitted: false,
-            countdown: 5
+            countdown: 5,
+            serverErrors: null,
+            processing: false
         }),
         mounted() {
             this.getVotes();
@@ -93,6 +102,9 @@
                         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
                         'X-Requested-With': 'XMLHttpRequest'
                     },
+                    params: {
+                        country_id: this.country_id
+                    }
                 }).then(res => {
                     this.votes.forEach((vote) => {
                         this.dictionary.custom['country_' + vote.id] = {excluded: 'You must select the country from the list'};
@@ -135,6 +147,8 @@
                 })
             },
             onSubmit() {
+                this.serverErrors = [];
+                this.processing = true;
                 this.$validator.validateAll().then((result) => {
                     if (result) {
                         let votes = this.votes.map((value, index) => {
@@ -160,6 +174,10 @@
                                     window.location.replace('/countries')
                                 }
                             }, 1000)
+                        }).catch((errors) => {
+                            this.processing = false;
+                            this.serverErrors = errors.response.data.errors;
+                            console.log('this.serverErrors', this.serverErrors);
                         })
                     }
                 });
